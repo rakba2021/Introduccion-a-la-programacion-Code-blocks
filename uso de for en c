@@ -1,0 +1,31 @@
+
+main (){
+
+int x,y,z,suma,resta;
+
+printf ("introduce un valor a convertir");
+
+scanf ("%d", &y);
+
+y=0
+suma=0
+resta=0
+
+for(x=0;x<=y;x++)
+{
+suma= suma + x;
+if(y=x)
+{ z=y*x;
+resta = z-3.416;
+
+
+}
+prntf ("el valor que ingresaste al cuadrado menos pi es: %d" resta);
+return 0;
+
+}
+
+
+
+
+}
