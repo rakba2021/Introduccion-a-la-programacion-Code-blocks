@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  int i,x,y;
+  printf("Escribe el numero de columnas que tendra tu matriz: ");
+  scanf("%i", &x);
+  y=x;
+  int matriz [x];
+  int copia [y];
+  printf("\n");
+
+
+
+    for (i=1; i<=x; i++){
+        printf("Escribe el valor de la posiscion [%d]\n", i);
+        scanf("%i", &matriz [i]);
+    }
+
+
+    printf("matriz: ");
+    for (i=1; i<=x; i++){
+        printf("%i", matriz [i]);
+
+    }
+
+    printf("\n");
+
+    for (i=1; i<=x; i++){
+        copia [i] = matriz [i];
+
+    }
+
+      printf("copia: ");
+    for (i=1; i<=x; i++){
+        printf("%i", copia [i]);
+
+    }
+
+
+
+
+
+
+
+
+
+}
